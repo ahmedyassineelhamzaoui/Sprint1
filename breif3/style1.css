@@ -25,6 +25,9 @@
     text-decoration: none;
     color: black;
 }
+.nav1 nav li a:active{
+    color:aqua;
+}
 .nav2 ul{
     display: flex;
 }
@@ -133,7 +136,14 @@ h3{
         display:flex;
     }
     nav .ul2 li{
-        margin-right:45px;
+        border: 1px solid black;
+        width:90%;
+        padding: 5px 10px;
+        margin: 0;
+        text-align: center;
+    }
+    nav li a:hover{
+        color:rgb(13, 13, 244);
     }
     .nav1{
         width:80%;
@@ -142,9 +152,8 @@ h3{
     .nav1 nav li{
         font-family: Georgia, Times, 'Times New Roman', serif;
         margin-top:20px ;
-        margin-left: 5px;
         font-size:10px;
-        width:50px;
+       
     }
    
     #logo{
