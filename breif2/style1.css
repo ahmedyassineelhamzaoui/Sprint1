@@ -22,6 +22,9 @@
     text-decoration: none;
     color: black;
 }
+.nav1 ul li a:hover{
+    color: rgb(0, 0, 255);
+}
 .nav2 ul{
     display: flex;
 }
@@ -34,6 +37,9 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
+}
+.nav2 ul li a:hover{
+    color:blue;
 }
 h1{
     margin-left: 14px;
