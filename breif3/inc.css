@@ -116,3 +116,8 @@ div{
     }
 
 }
+@media print{
+    header{
+        display:none;
+    }
+}
